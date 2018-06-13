@@ -22,6 +22,17 @@
       </li>
       <hr>
       </template>
+
+      <hr>
+      <hr>
+      <hr>
+      <li v-for="value in empleado">
+        {{value}}
+      </li>
+      <hr>
+      <li v-for="(value, llave) in empleado">
+        {{llave}} -> {{value}}
+      </li>
     </ul>
   </div>
   <script src="vue.js"></script>
