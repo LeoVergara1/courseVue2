@@ -16,9 +16,12 @@
       <li v-for="pais in paises2">
         {{pais.nombre}}
       </li>
-      <li v-for="(pais, index) in paises2"> <!-- Se puede usar of o in -->
+      <template v-for="(pais, index) in paises2">
+      <li > <!-- Se puede usar of o in -->
         {{pais.nombre}} with index {{index}}
       </li>
+      <hr>
+      </template>
     </ul>
   </div>
   <script src="vue.js"></script>
