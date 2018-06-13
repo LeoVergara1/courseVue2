@@ -9,6 +9,9 @@ new Vue({
       },
       restarUno: function(){
         this.contador -=1;
+      },
+      alerta: function (mensaje) {
+        alert(mensaje)
       }
     }
 })
