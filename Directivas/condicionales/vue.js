@@ -1,6 +1,7 @@
 var app = new Vue({
   el:"#vm",
     data: {
-      mostrar: false
+      mostrar: false,
+      parrafo: 44
     }
 })
