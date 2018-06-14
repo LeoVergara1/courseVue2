@@ -18,6 +18,9 @@
     </div>
     </div>
     x: {{x}}, y: {{y}}, contador {{contador}}
+    <input type="text" v-on:keyup="suma(1)">
+    <input type="text" v-on:keyup.delete="suma(1)">
+    <input type="text" v-on:keyup.alt.67="suma(1)">
   </div>
   <script src="vue.js"></script>
 </body>
