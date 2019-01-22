@@ -9,7 +9,7 @@ var app = new Vue({
   },
   computed: {
     total: function () {
-      return  this.primero + this.segundo +1
+      return  this.suma = this.primero + this.segundo +1
     }
   }
 
